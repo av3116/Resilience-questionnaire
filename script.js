@@ -74,7 +74,7 @@ const questions = [
   function showResult() {
     questionnaire.style.display = "none";
     resultPage.style.display = "block";
-    resultText.textContent = `Your total score is ${totalScore}.`;
+    resultText.textContent = `You scored ${totalScore/6*10}%.`;
   }
   
   restartButton.addEventListener("click", () => {
